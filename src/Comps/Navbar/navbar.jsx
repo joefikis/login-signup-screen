@@ -9,6 +9,7 @@ function Navbar() {
             <div className="navbar-wrapper">
                 <div className="navbar-links">
                     <Link to="/Signup" reloadDocument><button>Signup</button></Link>
+                    <Link to="/Login" reloadDocument><button>Login</button></Link>
                 </div>
             </div>
         </div>

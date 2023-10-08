@@ -16,7 +16,11 @@ function Signup() {
                 <input type="text" id="name" />
                 </div>
                 <div className="signup-password">
-                <label htmlFor="name">Password</label>
+                <label htmlFor="password">Password</label>
+                <input type="text" id="name" />
+                </div>
+                <div className="signup-confirmpass">
+                <label htmlFor="confirmpassword">Confirm Password</label>
                 <input type="text" id="name" />
                 </div>
           </div>
