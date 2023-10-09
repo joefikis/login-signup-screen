@@ -17,11 +17,7 @@ function Signup() {
                 </div>
                 <div className="signup-password">
                 <label htmlFor="password">Password</label>
-                <input type="text" id="name" />
-                </div>
-                <div className="signup-confirmpass">
-                <label htmlFor="confirmpassword">Confirm Password</label>
-                <input type="text" id="name" />
+                <input type="password" id="password" />
                 </div>
           </div>
         </div>

@@ -25,13 +25,10 @@
 }
 
 .login-info {
-    gap: 100px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-self: center;
-}
-
-.login-password {
-    margin-top: -80px;
+    align-items: center;
+    margin-top: 10rem;
 }

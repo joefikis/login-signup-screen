@@ -1,6 +1,7 @@
 import React from 'react'
+import './login.css'
 
-function login() {
+function Login() {
   return (
     <>
     <div className="login-container">
@@ -16,7 +17,7 @@ function login() {
                 </div>
                 <div className="login-password">
                 <label htmlFor="password">Password</label>
-                <input type="text" id="name" />
+                <input type="password" id="password" />
                 </div>
           </div>
         </div>
@@ -26,4 +27,4 @@ function login() {
   )
 }
 
-export default login
+export default Login

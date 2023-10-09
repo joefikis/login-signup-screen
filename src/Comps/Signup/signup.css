@@ -25,13 +25,43 @@
 }
 
 .signup-info {
-    gap: 100px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    box-sizing: border-box;
 }
 
-.signup-password {
-    margin-top: -80px;
+
+.signup-username {
+    width:200px;
+    padding:20px;
 }
+
+input {
+    display:block;
+    width:100%;
+    margin:10px 0;
+    padding:10
+} 
+
+input[type=text] {
+    background-color: #d4a310;
+    border: none;
+    display: flex;
+    justify-items: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  input[type=password] {
+    background-color: #d4a310;
+    border: none;
+    display: flex;
+    justify-items: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
