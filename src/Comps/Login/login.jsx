@@ -19,6 +19,9 @@ function Login() {
                 <label htmlFor="password">Password</label>
                 <input type="password" id="password" />
                 </div>
+                <button>
+                  <a href="/">Submit</a>
+                </button>
           </div>
         </div>
       </div>
